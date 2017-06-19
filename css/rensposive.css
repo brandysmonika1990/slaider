@@ -1,0 +1,187 @@
+/*Style dla min 768px START */
+
+@media (min-width: 768px) {
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+    .cover-container {
+        width: 100%;
+    }
+}
+/*Style dla min 768px STOP */
+
+
+/* Style dla min 992px START */
+
+@media (min-width: 992px) {
+    .cover-container {
+        width: 700px;
+    }
+}
+/* Style dla min 992px STOP */
+
+
+/* Style dla min 480px START */
+
+@media (min-width: 480px) {
+    .navbar-minimal.open {
+        width: 60px;
+    }
+    .navbar-minimal.open > .navbar-menu {
+        overflow: visible;
+    }
+    .navbar-minimal > .navbar-menu > li > a > .desc {
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 130px;
+        margin-top: -20px;
+        margin-left: 20px;
+        text-align: left;
+        white-space: nowrap;
+        padding: 10px 13px;
+        border-width: 0px !important;
+        background-color: rgb(51, 51, 51);
+        background-color: rgba(51, 51, 51, 0.8);
+        opacity: 0;
+    }
+    .navbar-minimal > .navbar-menu > li > a > .desc:after {
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        margin-top: -10px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid rgb(51, 51, 51);
+        border-right-color: rgba(51, 51, 51, 0.8);
+    }
+    .navbar-minimal > .navbar-menu > li > a:hover > .desc {
+        left: 60px;
+        opacity: 1;
+    }
+}
+/* Style dla min 480px STOP */
+
+
+/* Style dla max 768px START */
+
+@media (max-width: 768px) {
+    .slide-first {
+        margin-top: 10%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .lead {
+        font-size: 1.3em;
+    }
+    #slide2 .wrap .img-responsive {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-top: 0;
+    }
+    .navbar-nav {
+        margin-top: 15%;
+    }
+    #slide3 .wrap .img-responsive {
+        padding-bottom: 1em;
+        margin-left: 70%;
+    }
+    #slide3 .wrap h1 {
+        padding-bottom: 0.5em;
+    }
+    #slide3 .wrap .img-responsive {
+        padding-bottom: 1em;
+        margin-left: 45%;
+    }
+    #slide3 .wrap p {
+        margin-top: 0%;
+        text-align: center;
+    }
+}
+/* Style dla max 768px STOP */
+
+
+/* Style dla max 480px START */
+
+@media (max-width: 480px) {
+    .arrow {
+        margin: 0 auto;
+    }
+    .container {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    #arrow-left {
+        left: 1vh;
+    }
+    #arrow-down,
+    #arrow-down2,
+    #arrow-down3,
+    #arrow-top,
+    #arrow-top2,
+    #arrow-top3 {
+        left: 42%;
+    }
+    #slide3 .wrap p {
+        margin-top: 0%;
+        text-align: center;
+    }
+    #slide3 .wrap .img-responsive {
+        padding-bottom: 1em;
+        margin-left: 40%;
+    }
+    #slide2 .wrap h1 {
+        margin-top: 5%;
+    }
+ }
+/* Style dla max 480px STOP */
+
+
+/* Style dla max 560px START */
+
+@media (max-width: 560px) {
+    .carousel-caption .wrap h1,
+    #slide2 .wrap h1,
+    #slide3 .wrap h1 {
+        font-size: 1.8em;
+    }
+    .carousel-caption .wrap h2 {
+        font-size: 1.6em;
+    }
+    .carousel-caption .wrap .lead {
+        font-size: 1.1em;
+    }
+}
+
+/* Style dla max 560px STOP */
+
+
+/* Style dla media max 390px START */
+
+@media (max-width: 390px) {
+    .carousel-caption .wrap img {
+        width: 50%;
+        height: 50%;
+    }
+    .carousel-caption .wrap .lead {
+        font-size: 0.9em;
+    }
+    #arrow-right {
+        left: 2vh;
+    }
+    #slide2 .wrap .img-responsive {
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    
+    .carousel-caption .wrap .lead {
+        font-size: 1em;
+    }
+}
+
+/* Style dla media max 390px STOP */
